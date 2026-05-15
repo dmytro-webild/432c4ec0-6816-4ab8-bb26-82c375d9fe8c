@@ -7,6 +7,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Libre_Baskerville } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 
 
 
@@ -21,13 +22,13 @@ export const metadata: Metadata = {
   },
 };
 
-const libreBaskerville = Libre_Baskerville({
-  variable: "--font-libre-baskerville",
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
+
 const inter = Inter({
   variable: "--font-inter",
+  subsets: ["latin"],
+});
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
 });
 
@@ -39,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${libreBaskerville.variable} ${inter.variable} antialiased`}>
+        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
           <Tag />
           {children}
           <script
