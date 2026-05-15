@@ -33,21 +33,13 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Services",
-          id: "features",
-        },
+          name: "Services",          id: "features"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="ItaquaConnect"
     />
@@ -56,63 +48,40 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroCentered
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Your trusted local partner in Itaquaquecetuba"
       description="Find us at Rua Campina Grande, 200. Serving the community with quality and reliability."
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/people-having-dinner-luxurious-restaurants_23-2151081913.jpg",
-          alt: "Client",
-        },
+          src: "http://img.b2bpic.net/free-photo/people-having-dinner-luxurious-restaurants_23-2151081913.jpg",          alt: "Client"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-stylish-female-photographer-exploring-subway-city_23-2149186695.jpg",
-          alt: "Client",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-stylish-female-photographer-exploring-subway-city_23-2149186695.jpg",          alt: "Client"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-handsome-cheerful-gardener-smiling-looking-camera-posing_176420-3837.jpg",
-          alt: "Client",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-handsome-cheerful-gardener-smiling-looking-camera-posing_176420-3837.jpg",          alt: "Client"},
         {
-          src: "http://img.b2bpic.net/free-photo/smiling-senior-engineer-solar-panels-plant-reading-documentation_482257-120499.jpg",
-          alt: "Client",
-        },
+          src: "http://img.b2bpic.net/free-photo/smiling-senior-engineer-solar-panels-plant-reading-documentation_482257-120499.jpg",          alt: "Client"},
         {
-          src: "http://img.b2bpic.net/free-photo/volunteer-handing-donation-box_23-2149230537.jpg",
-          alt: "Community Member",
-        },
+          src: "http://img.b2bpic.net/free-photo/volunteer-handing-donation-box_23-2149230537.jpg",          alt: "Community Member"},
       ]}
       buttons={[
         {
-          text: "Get in Touch",
-          href: "#contact",
-        },
+          text: "Get in Touch",          href: "#contact"},
       ]}
       marqueeItems={[
         {
-          type: "text-icon",
-          text: "Quality Guaranteed",
-          icon: Check,
+          type: "text-icon",          text: "Quality Guaranteed",          icon: Check,
         },
         {
-          type: "text-icon",
-          text: "Locally Owned",
-          icon: MapPin,
+          type: "text-icon",          text: "Locally Owned",          icon: MapPin,
         },
         {
-          type: "text-icon",
-          text: "Fast Support",
-          icon: Zap,
+          type: "text-icon",          text: "Fast Support",          icon: Zap,
         },
         {
-          type: "text-icon",
-          text: "Trusted Expert",
-          icon: Shield,
+          type: "text-icon",          text: "Trusted Expert",          icon: Shield,
         },
         {
-          type: "text-icon",
-          text: "Community Focused",
-          icon: Heart,
+          type: "text-icon",          text: "Community Focused",          icon: Heart,
         },
       ]}
     />
@@ -125,19 +94,13 @@ export default function LandingPage() {
       metrics={[
         {
           icon: MapPin,
-          label: "Location",
-          value: "Rua Campina Grande, 200",
-        },
+          label: "Location",          value: "Rua Campina Grande, 200"},
         {
           icon: Clock,
-          label: "Serving Since",
-          value: "2015",
-        },
+          label: "Serving Since",          value: "2015"},
         {
           icon: CheckCircle,
-          label: "Projects Completed",
-          value: "500+",
-        },
+          label: "Projects Completed",          value: "500+"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -150,67 +113,43 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Service Excellence",
-          description: "High-quality maintenance and support for all your residential and commercial needs.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/composition-lollipops-form-heart-wands_23-2148010164.jpg",
-            imageAlt: "Service",
-          },
+          title: "Service Excellence",          description: "High-quality maintenance and support for all your residential and commercial needs.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/composition-lollipops-form-heart-wands_23-2148010164.jpg",            imageAlt: "Service"},
           items: [
             {
               icon: Zap,
-              text: "Rapid response",
-            },
+              text: "Rapid response"},
             {
               icon: Shield,
-              text: "Certified quality",
-            },
+              text: "Certified quality"},
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/group-friends-meeting-restaurant_23-2150520048.jpg",
-          imageAlt: "service quality symbol abstract",
         },
         {
-          title: "Reliable Support",
-          description: "We stand by our work, ensuring every customer feels supported throughout the process.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/happy-young-delivery-woman-red-uniform-cap-rush-running-delivering-pizza-boxes-customer-green-wall_141793-64732.jpg",
-            imageAlt: "Support",
-          },
+          title: "Reliable Support",          description: "We stand by our work, ensuring every customer feels supported throughout the process.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/happy-young-delivery-woman-red-uniform-cap-rush-running-delivering-pizza-boxes-customer-green-wall_141793-64732.jpg",            imageAlt: "Support"},
           items: [
             {
               icon: Users,
-              text: "Customer focused",
-            },
+              text: "Customer focused"},
             {
               icon: Award,
-              text: "Local experts",
-            },
+              text: "Local experts"},
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-asian-girl-barista-cafe-processing-contactless-payment-insert-credit-card-into-pos-terminal_1258-199469.jpg",
-          imageAlt: "service quality symbol abstract",
         },
         {
-          title: "Community Focus",
-          description: "Proudly serving our neighborhood with integrity, professionalism, and quick turnaround.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/handsome-business-man-suit-headphones-with-microphone-holding-clipboard-looking-aside-puzzled-sitting-table-offise-orange-background_141793-54010.jpg",
-            imageAlt: "Community",
-          },
+          title: "Community Focus",          description: "Proudly serving our neighborhood with integrity, professionalism, and quick turnaround.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/handsome-business-man-suit-headphones-with-microphone-holding-clipboard-looking-aside-puzzled-sitting-table-offise-orange-background_141793-54010.jpg",            imageAlt: "Community"},
           items: [
             {
               icon: Map,
-              text: "Central location",
-            },
+              text: "Central location"},
             {
               icon: Heart,
-              text: "Community driven",
-            },
+              text: "Community driven"},
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/people-having-dinner-luxurious-restaurants_23-2151081913.jpg",
-          imageAlt: "service quality symbol abstract",
         },
       ]}
       title="Our Local Services"
@@ -220,33 +159,16 @@ export default function LandingPage() {
 
   <div id="metrics" data-section="metrics">
       <MetricCardEleven
+      animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
       metrics={[
         {
-          id: "1",
-          value: "10k+",
-          title: "Happy Clients",
-          description: "Serving residents and businesses daily.",
-          imageSrc: "http://img.b2bpic.net/free-photo/blurred-picture-lady-with-bronze-skin-painting-her-lips_1304-3223.jpg",
-          imageAlt: "Impact",
-        },
+          id: "1",          value: "10k+",          title: "Happy Clients",          description: "Serving residents and businesses daily.",          imageSrc: "http://img.b2bpic.net/free-photo/blurred-picture-lady-with-bronze-skin-painting-her-lips_1304-3223.jpg",          imageAlt: "Impact"},
         {
-          id: "2",
-          value: "98%",
-          title: "Satisfaction",
-          description: "Consistently high ratings from customers.",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-3d-hands-showing-thumbs-up-gesture_23-2150995920.jpg",
-          imageAlt: "Impact",
-        },
+          id: "2",          value: "98%",          title: "Satisfaction",          description: "Consistently high ratings from customers.",          imageSrc: "http://img.b2bpic.net/free-photo/view-3d-hands-showing-thumbs-up-gesture_23-2150995920.jpg",          imageAlt: "Impact"},
         {
-          id: "3",
-          value: "12",
-          title: "Team Members",
-          description: "Experienced local professionals ready to help.",
-          imageSrc: "http://img.b2bpic.net/free-photo/clients-asking-about-organic-farming_482257-80722.jpg",
-          imageAlt: "Impact",
-        },
+          id: "3",          value: "12",          title: "Team Members",          description: "Experienced local professionals ready to help.",          imageSrc: "http://img.b2bpic.net/free-photo/clients-asking-about-organic-farming_482257-80722.jpg",          imageAlt: "Impact"},
       ]}
       title="Our Impact"
       description="Growing together with our clients and the city."
@@ -258,20 +180,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "q1",
-          title: "What are your business hours?",
-          content: "We are open Monday to Saturday, 8 AM to 6 PM.",
-        },
+          id: "q1",          title: "What are your business hours?",          content: "We are open Monday to Saturday, 8 AM to 6 PM."},
         {
-          id: "q2",
-          title: "Do you offer free consultations?",
-          content: "Yes, we provide free initial consultations to discuss your requirements.",
-        },
+          id: "q2",          title: "Do you offer free consultations?",          content: "Yes, we provide free initial consultations to discuss your requirements."},
         {
-          id: "q3",
-          title: "Is parking available at the location?",
-          content: "Yes, we have parking spaces directly in front of our Rua Campina Grande facility.",
-        },
+          id: "q3",          title: "Is parking available at the location?",          content: "Yes, we have parking spaces directly in front of our Rua Campina Grande facility."},
       ]}
       sideTitle="Frequently Asked Questions"
       faqsAnimation="blur-reveal"
@@ -283,12 +196,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Local Partners",
-        "Trusted Brands",
-        "Regional Leaders",
-        "Business Network",
-        "Quality Alliance",
-      ]}
+        "Local Partners",        "Trusted Brands",        "Regional Leaders",        "Business Network",        "Quality Alliance"]}
       title="Trusted by Local Leaders"
       description="We are proud to partner with esteemed organizations throughout the São Paulo area."
     />
@@ -300,45 +208,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",
-          title: "Great service",
-          quote: "I am so impressed with the quality and friendliness of the team.",
-          name: "Alice M.",
-          role: "Resident",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-black-woman-smile-camera_197531-33139.jpg",
-        },
+          id: "t1",          title: "Great service",          quote: "I am so impressed with the quality and friendliness of the team.",          name: "Alice M.",          role: "Resident",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-black-woman-smile-camera_197531-33139.jpg"},
         {
-          id: "t2",
-          title: "Very reliable",
-          quote: "They are always on time and professional. Truly recommended.",
-          name: "Carlos S.",
-          role: "Business Owner",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-adult-having-great-time-with-friends_23-2149286535.jpg",
-        },
+          id: "t2",          title: "Very reliable",          quote: "They are always on time and professional. Truly recommended.",          name: "Carlos S.",          role: "Business Owner",          imageSrc: "http://img.b2bpic.net/free-photo/young-adult-having-great-time-with-friends_23-2149286535.jpg"},
         {
-          id: "t3",
-          title: "Highly professional",
-          quote: "Working with them was seamless and easy. Best local choice.",
-          name: "Beatriz L.",
-          role: "Client",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-african-woman-with-bunch-flowers-looking-camera_23-2147882087.jpg",
-        },
+          id: "t3",          title: "Highly professional",          quote: "Working with them was seamless and easy. Best local choice.",          name: "Beatriz L.",          role: "Client",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-african-woman-with-bunch-flowers-looking-camera_23-2147882087.jpg"},
         {
-          id: "t4",
-          title: "Excellent experience",
-          quote: "Friendly and helpful staff. They went above and beyond.",
-          name: "Ricardo D.",
-          role: "Local Professional",
-          imageSrc: "http://img.b2bpic.net/free-photo/curly-haired-young-businessman-blue-shirt-talking-phone_259150-58627.jpg",
-        },
+          id: "t4",          title: "Excellent experience",          quote: "Friendly and helpful staff. They went above and beyond.",          name: "Ricardo D.",          role: "Local Professional",          imageSrc: "http://img.b2bpic.net/free-photo/curly-haired-young-businessman-blue-shirt-talking-phone_259150-58627.jpg"},
         {
-          id: "t5",
-          title: "Trusted partner",
-          quote: "A staple in Itaquaquecetuba. Always professional.",
-          name: "Elena V.",
-          role: "Business Leader",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-happy-queer-eldery-women_23-2149732507.jpg",
-        },
+          id: "t5",          title: "Trusted partner",          quote: "A staple in Itaquaquecetuba. Always professional.",          name: "Elena V.",          role: "Business Leader",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-happy-queer-eldery-women_23-2149732507.jpg"},
       ]}
       title="Voices of the Community"
       description="Hear what our neighbors have to say about their experience."
@@ -349,16 +227,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       tag="Let's Connect"
       title="Ready to get started?"
       description="Visit us at Rua Campina Grande, 200 or reach out to our team today to learn how we can assist you."
       buttons={[
         {
-          text: "Contact Us Now",
-          href: "mailto:info@itaquaconnect.com.br",
-        },
+          text: "Contact Us Now",          href: "mailto:info@itaquaconnect.com.br"},
       ]}
     />
   </div>
@@ -367,37 +242,23 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
             {
-              label: "Careers",
-              href: "#",
-            },
+              label: "Careers",              href: "#"},
             {
-              label: "Blog",
-              href: "#",
-            },
+              label: "Blog",              href: "#"},
           ],
         },
         {
-          title: "Support",
-          items: [
+          title: "Support",          items: [
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
             {
-              label: "FAQ",
-              href: "#faq",
-            },
+              label: "FAQ",              href: "#faq"},
             {
-              label: "Terms",
-              href: "#",
-            },
+              label: "Terms",              href: "#"},
           ],
         },
       ]}
